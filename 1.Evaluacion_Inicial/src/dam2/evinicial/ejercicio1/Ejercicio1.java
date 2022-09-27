@@ -6,6 +6,8 @@ public class Ejercicio1 {
 
 		String lineaerronea="Tomás Pérez CamposTomás Pérez Campos";
 		
+		System.out.println("has");
+		
 		String[] lineasinerror = lineaerronea.split(" ");
 		
 		if (lineasinerror.length==5) {
@@ -17,7 +19,7 @@ public class Ejercicio1 {
 			System.out.println(lineasinerror[0] + " " + lineasinerror[1] + " " + lineasinerror[2] + " " + lineasinerror[lineasinerror.length-1]);
 
 		}
-				
+			
 
 }
 }
